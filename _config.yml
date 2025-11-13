@@ -1,0 +1,32 @@
+# GitHub Pages Jekyll Configuration
+# AI Directory Assets CDN
+
+# Site settings
+title: AI Directory Assets CDN
+description: Public asset hosting for AI Directory - logos, screenshots, banners, and category images
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Include dotfiles and specific directories
+include:
+  - .keep
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .git
+  - .gitignore
+
+# Enable directory indexes
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: none
+
+# CORS and headers (configured via GitHub Pages settings)
+# Assets should be accessible from any origin for CDN usage
